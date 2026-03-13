@@ -1,16 +1,52 @@
-# porti_app_dev
+# Porti – Portfolio Generator App
 
-A new Flutter project.
+Porti is a mobile application built using Flutter that helps users quickly create a personal portfolio. Users can select a template, enter their personal and professional details, and instantly generate a portfolio layout that can be viewed and shared.
 
-## Getting Started
+## 🚀 Project Goal
 
-This project is a starting point for a Flutter application.
+The goal of Porti is to simplify the process of creating a portfolio by providing ready-made templates that users can customize with their own information.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Select from multiple portfolio templates
+- Fill in personal details such as name, bio, skills, and projects
+- Automatically generate a portfolio layout
+- Save portfolio data using Firebase Firestore
+- Clean and simple UI built with Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- Flutter (Frontend)
+- Firebase
+  - Firebase Authentication
+  - Cloud Firestore
+  - Firebase Storage (planned)
+
+- GitHub for version control
+
+## 📂 Project Structure
+
+```
+lib/
+ ├── models/
+ ├── screens/
+ ├── widgets/
+ ├── services/
+ └── main.dart
+```
+
+## 🎯 Planned Features
+
+- Template-based portfolio generation
+- Portfolio preview screen
+- Edit portfolio functionality
+- Export/share portfolio
+- Profile image upload
+
+## 🧑‍💻 Author
+
+Mohamed Basheer
+
+## 📌 Status
+
+🚧 Currently in development
